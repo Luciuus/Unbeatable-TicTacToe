@@ -24,7 +24,7 @@ export default function TicTacToe() {
 
             <div id="game-card" className="relative w-full max-w-5xl overflow-hidden rounded-3xl border border-white/5 bg-[#181c23]/90 shadow-2xl backdrop-blur-xl">
                 <div className="flex flex-col gap-8 lg:flex-row lg:gap-0">
-                    {/* LEFT SIDE */}
+
                     <div className="flex flex-1 flex-col justify-between p-6">
                         <div>
                             <h1 className="text-4xl font-black tracking-tight text-zinc-100 font-title">
@@ -71,7 +71,6 @@ export default function TicTacToe() {
                         </div>
                     </div>
 
-                    {/* RIGHT SIDE */}
                     <div className="flex flex-1 items-center justify-center px-6 pb-6 lg:pl-0">
                         <div className="w-full max-w-[420px]">
                             <Board board={board} makeMove={makeMove} />
